@@ -8,7 +8,11 @@
  * 
  * This application uses the open source component HttpRequest.java
  ******************************************************************************/
-
+/* Kwintyn Porter 
+    Swiss Army Knife
+    HTTP Requesting and JSON Data Reading/Handling
+    Last Mod: 11/3/2019
+*/ 
 
 public class sak {
     public static void main(String[] args) {
@@ -20,6 +24,8 @@ public class sak {
             System.out.println("V-- HELP: STARTING SUCCESSFULLY --V");
             Help.printHelp();          
         } 
+
+        // Building the -HttpRequest command with console timing
         else if (args[0].equalsIgnoreCase("-HttpRequest")) {
             System.out.println("V-- HTTPREQUEST: STARTING SUCCESSFULLY --V");
             if (args.length <2) {
@@ -37,6 +43,7 @@ public class sak {
             }
         }   
 
+        //Building the -HTTTPRequestIndex command with console timing
         else if (args[0].equalsIgnoreCase("-HttpRequestIndex")) {
              System.out.println("V--- HTTPREQUEST INDEX: STARTING SUCCESSFULLY ---V");   
              System.out.println("\nHere are your URLs."); 

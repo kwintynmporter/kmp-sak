@@ -1,5 +1,6 @@
 class Help {
     public static void printHelp() {
+        // Prints a simple help menu for the user to read and copy/test links from. 
         System.out.println("\n Copy and paste one of these examples to see what each of these lines do."); 
         System.out.println("\nHttpRequest [URL] examples:");
         System.out.println("java sak -HttpRequest https://www.cnn.com");
