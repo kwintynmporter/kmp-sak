@@ -58,7 +58,7 @@ public class sak {
                     System.out.println(request);
                     System.out.println("---------------------------------------------------------------");
                     long elapsedTime = System.nanoTime() - startTime; 
-                    System.out.println("\nTime required to complete this Index Command: " + elapsedTime/10000000 + " milliseconds.");
+                    System.out.println("\nTime required to complete this Index Command: " + elapsedTime/1000000 + " milliseconds.");
                 }  
             }
         }       
@@ -66,25 +66,3 @@ public class sak {
         System.out.println("");
     }
 } 
-
-        // I implemeneted both an -HTTPRequestURLs class and an HTTPRequestIndex, 
-        // because I was confused on what to implement where and what
-        // we'll be using in thunderbird since this program is the
-        // starting basis for it. Both function exactly the same.
-
-        // else if (args[0].equalsIgnoreCase("-HTTPRequestURLs")) {
-        //         System.out.print("v-- HTTPRequestURLs starting below.");
-        //     if (args.length <2) {
-        //         System.out.println("Valid parameters needed."); 
-        //     }
-        //     else {
-        //         String URL = args[1];
-        //         HttpRequestURLs urlRequest = new HttpRequestURLs();  
-        //         System.out.println(); 
-        //         System.out.println("\nv-- URLs found in Index: ");
-        //         System.out.println("-----------------------------------------------"); 
-        //         if (urlRequest.readURL(URL)) {
-        //             System.out.println(urlRequest);  
-        //         } 
-        //     }
-        // }
