@@ -4,5 +4,5 @@
 
 This is my completed swissarmyknife project. email me if you have any questions about what I did. kwintynmporter@lewisu.edu
 
-HTTPRequestURLs and HTTPRequestIndex are line for line the exact same code, they're both in there because I was a bit confused on the implemented of what to call in the main. 
+HTTPRequestURLs and HTTPRequestIndex are line for line the exact same code, they're both in there because I was a bit confused on the implementation of what to call in the main. 
 
